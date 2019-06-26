@@ -1,9 +1,0 @@
-uk/ecs/lloyds/poc/ReportGenerator.class
-uk/ecs/lloyds/poc/database/DatabaseUtil.class
-uk/ecs/lloyds/poc/Main.class
-uk/ecs/lloyds/poc/database/DatabaseConfig.class
-uk/ecs/lloyds/poc/database/SqlRunner.class
-uk/ecs/lloyds/poc/database/DatabaseType.class
-uk/ecs/lloyds/poc/file/ExcelUtil.class
-uk/ecs/lloyds/poc/DatabaseConfigTest.class
-uk/ecs/lloyds/poc/exception/TradeErrorReportingException.class
