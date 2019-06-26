@@ -11,11 +11,11 @@ import uk.ecs.lloyds.poc.file.ExcelUtil;
 
 public class DatabaseConfigTest {
 
-	DatabaseConfig config = new DatabaseConfig(DatabaseType.POSTGRES, "localhost", 5432, "anjali", "anjali", "anjali");
+	DatabaseConfig config = new DatabaseConfig(DatabaseType.POSTGRES, "localhost", 5432, "postgres", "anjali", "anjali");
 
 	
 	@Test
 	public void testAll() throws TradeErrorReportingException{
-		ExcelUtil.write(SqlRunner.runSelectQuery(DatabaseUtil.getConnection(config), "select * from jobs.jobs order by id"), "test.xslx");
+		ExcelUtil.write(SqlRunner.runSelectQuery(DatabaseUtil.getConnection(config), "select * from trades.jobs order by id"), "test.xlsx");
 	}
 }
