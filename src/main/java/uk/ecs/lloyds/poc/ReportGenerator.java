@@ -15,7 +15,7 @@ public class ReportGenerator {
 
 	protected static String jobs(DatabaseConfig databaseConfig) throws TradeErrorReportingException {
 		String fileName = "ErroredJobs.xlsx";
-		runQueryAndWriteToExcel(databaseConfig, "select * from jobs.jobs order by id", fileName);
+		runQueryAndWriteToExcel(databaseConfig, "select * from trades.jobs order by id", fileName);
 		return fileName;
 	}
 
